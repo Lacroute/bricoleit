@@ -7,5 +7,6 @@ void draw() {
   stroke(255);
   if (mousePressed == true) {
     line(mouseX, mouseY, pmouseX, pmouseY);
+    println(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
